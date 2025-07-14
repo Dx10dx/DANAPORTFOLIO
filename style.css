@@ -185,16 +185,31 @@ footer {
 
 .project-images {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   overflow-x: auto;
   margin-bottom: 1rem;
 }
 
 .project-images img {
-  width: 200px;
-  height: 120px;
+  width: 100px;
+  height: 200px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.project-images2 {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+
+.project-images2 img {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
   flex-shrink: 0;
 }
 
